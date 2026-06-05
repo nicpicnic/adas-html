@@ -4,41 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
 
-    <img src="https://kpopstore.co.uk/cdn/shop/files/kpostorelogo.png?v=1744286612" alt="Logo"
-        width="150">
+    <div style="display: flex; align-items: flex-start; gap: 20px;">
+        <img src="https://kpopstore.co.uk/cdn/shop/files/kpostorelogo.png?v=1744286612" alt="descrição"
+            style="width: 150px;">
 
-    <h1>K-Store</h1>
+        <div>
+            <h1 style="margin-top: 40px;">K-Store</h1>
+
+            <div style="display: flex; gap: 10px;">
+                <button onclick="location.href='desafio-home.html'"
+                    style="padding: 8px 16px; cursor: pointer; border: none; background-color: #490404; color: white; border-radius: 4px;">
+                    Home
+                </button>
+                <button onclick="location.href='desafio-produtos.html'"
+                    style="padding: 8px 16px; cursor: pointer; border: none; background-color: #460157; color: white; border-radius: 4px;">
+                    Produtos
+                </button>
+                <button onclick="location.href='desafio-sobre.html'"
+                    style="padding: 8px 16px; cursor: pointer; border: none; background-color: #394d03; color: white; border-radius: 4px;">
+                    Sobre
+                </button>
+                <button onclick="window.location.href='desafio-formulario-contato.html'"
+                    style="padding: 8px 16px; cursor: pointer; border: none; background-color: #034449; color: white; border-radius: 4px;">
+                    Fale Conosco
+                </button>
+            </div>
+        </div>
+    </div>
+
     <br>
-    <a>Aqui você encontra os melhores produtos de K-pop! </a>
+    <a>Aqui você encontra os melhores produtos de K-pop!</a>
     <br>
     <a>Albuns, lightsticks, funko pops e muito mais! Confira nossos produtos e aproveite as ofertas!</a>
     <br>
-
-    <ul>
-        <li>
-            <a href="desafio-sobre.html">
-                Sobre
-            </a>
-        </li>
-        <br>
-        <li>
-            <a href="desafio-produtos.html">
-                Produtos
-            </a>
-        </li>
-        <br>
-    </ul>
-
-    <a>Entre em contato conosco!</a>
     <br>
-    <a>(xx) xxxx-xxxx</a>
-    <br>
-    <a>xxxx@xxxx.com</a>
+    <table>
+        <tr>
+            <th>
+                Albúns
+                <br>
+                <a href="desafio-produtos-detalhe-album.html">
+                    <img src="https://i0.wp.com/koreanmagazine.com.br/wp-content/uploads/2024/02/albuns-kpop.jpg"
+                        alt="Albuns K-pop" style="width: 300px; height: 300px; object-fit: cover;">
+                </a>
+            </th>
+            <th>
+                Lightsticks
+                <br>
+                <a href="desafio-produtos-detalhe-lightstick.html">
+                    <img src="https://shplaza.kr/cdn/shop/articles/kpop_light_stick_5be61f9e-37d3-414d-9609-951024720318.png?v=1754369934"
+                        alt="Lightstick K-pop" style="width: 300px; height: 300px; object-fit: cover;">
+                </a>
+            </th>
+            <th>
+                Colecionáveis
+                <br>
+                <a href="desafio-produtos-detalhe-funko.html">
+                    <img src="https://wimg.heraldcorp.com/news/cms/2025/12/22/news-p.v1.20251217.bc9391b8468c4eaea98f00487c6b0b0e_P1.jpg"
+                        alt="Colecionáveis K-pop" style="width: 300px; height: 300px; object-fit: cover;">
+                </a>
+
+            </th>
+        </tr>
+    </table>
+
 </body>
 
 </html>
