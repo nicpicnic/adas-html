@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Vários Campos</title>
+</head>
+
+<body>
+
+    <h1>Exemplo de Formulário com Vários Campos</h1>
+
+    <form action="#" method="get">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <h3>Sessão selecionáveis</h3>
+
+        <input type="checkbox" id="credenciais" name="credenciais">
+        <label for="credenciais">Lembrar das minhas credenciais</label><br>
+
+        <input type="checkbox" id="darkmode" name="darkmode">
+        <label for="darkmode">Ativar dark mode ao entrar no sistema</label><br>
+        <br>
+
+        <input type="radio" id="manha" name="turno" checked>
+        <label for="manha">Manhã</label><br>
+
+        <input type="radio" id="tarde" name="turno">
+        <label for="tarde">Tarde</label><br>
+
+        <input type="radio" id="noite" name="turno">
+        <label for="noite">Noite</label><br>
+        <br>
+
+        <label for="aniversario">Data de Aniversário:</label><br>
+        <input type="date" id="aniversario" name="aniversario"><br><br>
+
+        <label for="formacao">Escolha sua formação</label><br>
+        <select name="formacao" id="formacao">
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Fullstack Developer</option>
+        </select>
+
+        <br><br>
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+</body>
+
+</html>
